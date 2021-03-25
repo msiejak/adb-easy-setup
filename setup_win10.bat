@@ -8,4 +8,4 @@
 @echo finished
 @echo you need to reboot to apply enviroment variables
 @set /p reb="reboot now? (Y/N): "
-@if%reb%=="Y" (Shutdown /r /t 0)
+@if %reb%=="Y" (Shutdown /r /t 0)
