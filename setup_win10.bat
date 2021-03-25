@@ -1,5 +1,5 @@
 @echo downloading into %cd%...
-@curl https://dl.google.com/android/repository/platform-tools_r31.0.1-windows.zip
+@curl https://dl.google.com/android/repository/platform-tools_r31.0.1-windows.zip platform-tools.zip
 @echo extracting files... into %cd%\platform-tools
 @powershell -command "Expand-Archive %cd%\platform-tools_r31.0.1-windows.zip %cd%"
 @echo updating path...
