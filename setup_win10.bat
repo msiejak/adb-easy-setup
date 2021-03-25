@@ -6,3 +6,5 @@
 @echo updating path...
 @setx path "%PATH%;%cd%\platform-tools" /M
 @echo finished
+@echo you need to reboot to apply enviroment variables
+@if(set /p id="reboot now? (Y/N): ") shutdown /r
