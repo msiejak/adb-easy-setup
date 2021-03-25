@@ -7,4 +7,5 @@
 @setx path "%PATH%;%cd%\platform-tools" /M
 @echo finished
 @echo you need to reboot to apply enviroment variables
-@if(set /p id="reboot now? (Y/N): ") shutdown /r
+@set /p reb="reboot now? (Y/N): "
+@if%reb%=="Y" (Shutdown /r /t 0)
