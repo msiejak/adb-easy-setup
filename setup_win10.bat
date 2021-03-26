@@ -7,6 +7,7 @@
 :: 1. Move the file to the directory (folder) you want to install adb in
 :: 2. Run the file as an administrator
 ::============================
+@cd /d "%~dp0"
 @echo downloading into %cd%
 @curl https://dl.google.com/android/repository/platform-tools_r31.0.1-windows.zip --output platform-tools.zip
 @echo extracting files into %cd%\platform-tools
