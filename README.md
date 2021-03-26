@@ -5,7 +5,7 @@
 
 ## Instructions
 * ### Windows
-1. [Downlaod the script](https://msiejak.dev/assets/setup_win10.bat)
+1. [Download the script](https://msiejak.dev/assets/setup_win10.bat)
 2. Run as administrator
 ---
 
@@ -20,5 +20,5 @@ Coming Soon!
 ---
 
 ## Notes
- If you do not run with administrator privleges, it will be unable to set up enviroment variables
+ If you do not run the script with administrator privleges, it will be unable to set up enviroment variables
  
