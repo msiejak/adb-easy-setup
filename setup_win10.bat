@@ -17,7 +17,20 @@
 @echo setting enviroment variables
 @echo updating path
 @setx path "%PATH%;%cd%\platform-tools" /M
-@echo finished
 @echo you need to reboot the system to apply enviroment variables
 @set /p reb="reboot now? (Y/N): "
-@if %reb% == Y (Shutdown /r /t 0)
+@if %reb% == Y (goto SHUTDOWN)
+@if %reb% == N (goto END) else (GoTo INVALIDINPUT)
+
+:INVALIDINPUT
+@set /p reb="error: enter Y/N   reboot now?: "
+@if %reb% == Y (goto SHUTDOWN)
+@if %reb% == N (goto END) else (GoTo INVALIDINPUT)
+@goto END
+
+:END
+@exit /B
+
+:SHUTDOWN
+@Shutdown /r /t 0
+@goto END
