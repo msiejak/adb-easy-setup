@@ -6,7 +6,8 @@
 ## Instructions
 * ### Windows
 1. [Download the script](https://msiejak.dev/assets/setup_win10.bat)
-2. Run as administrator
+2. Move the file to the directory you want to install adb into
+3. Run as administrator
 ---
 
 * ### Mac
