@@ -8,24 +8,7 @@
 # ============================
 #!/bin/bash
 
-rebootPrompt () {
-  echo "reboot now? Y/N: "
-  read reboot
-  if $reboot = "Y"
-  then
-    reboot
-  elif $reboot = "N"
-    then
-      echo "done"
-      exit
-  else
-      tput setaf 1; echo "invalid input: please enter Y or N"
-      rebootPrompt
-    fi
-}
-
 sudo apt install -y adb
 sudo apt-get install -y android-sdk-platform-tools-common
 sudo usermod -aG plugdev $LOGNAME
 echo "setup complete - you need to reboot to apply changes"
-rebootPrompt
