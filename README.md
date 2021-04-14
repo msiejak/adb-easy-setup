@@ -1,5 +1,5 @@
 # ADB Setup Utility 
-1 script to download, extract, and set up enviroment variables for adb
+One script to download, extract, and set up environment variables for adb
 
 ---
 
@@ -11,15 +11,16 @@
 ---
 
 * ### Mac
-Coming Soon!
+There is no script aviable for Mac OS, but feel free to contribute!
 
 ---
 
-* ### Linux
-Coming Soon!
+* ### Linux & Chrome OS
+1. [Download the script](https://msiejak.dev/assets/setup_linux.sh)
+2. Run the script
 
 ---
 
 ## Notes
- If you do not run the script with administrator privleges, it will be unable to set up enviroment variables
+ Windows: If you do not run the script with administrator privleges, it will be unable to set up enviroment variables
  
