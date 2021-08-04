@@ -9,6 +9,7 @@
 # ============================
 
 sudo apt install -y adb
+sudo apt install -y fastboot
 sudo apt-get install -y android-sdk-platform-tools-common
 sudo usermod -aG plugdev $LOGNAME
-echo "setup complete - you need to reboot to apply changes"
+printf "\nsetup complete - you need to reboot to apply changes"
